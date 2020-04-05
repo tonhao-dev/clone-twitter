@@ -96,6 +96,7 @@ export default StyleSheet.create({
         justifyContent: 'space-between',
         width: 290,
         padding: 5,
+        direction: 'ltr',
     },
 
     buttonIcon: {
@@ -112,4 +113,24 @@ export default StyleSheet.create({
     share: {
         marginRight: 50,
     },
+
+    bottomMenu: {
+        position: 'absolute',
+        zIndex: 1,
+        bottom: 0,
+        left: 0,
+        flexDirection: 'row',
+        backgroundColor: '#fff',
+        width: '100%',
+        justifyContent: 'space-around',
+        alignItems: 'center',
+        padding: 10,
+        borderTopColor: '#d1d1d1',
+        borderWidth: 1,
+    },
+
+    menuIcon: {
+        fontSize: 32,
+        color: '#666'
+    }
 });
