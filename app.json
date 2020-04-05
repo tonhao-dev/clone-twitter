@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "clone-twitter",
+    "name": "Twitter",
+    "slug": "Twitter",
     "platforms": [
       "ios",
       "android",
