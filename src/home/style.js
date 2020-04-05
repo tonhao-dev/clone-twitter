@@ -16,12 +16,16 @@ export default StyleSheet.create({
     header: {
         width: '100%',
         backgroundColor: '#fff',
+        position: 'absolute',
+        top: Constants.statusBarHeight + 20,
+        left: 0,
         justifyContent: 'space-between',
         alignItems: 'center',
         flexDirection: 'row',
         borderBottomWidth: 1,
         borderBottomColor: '#d1d1d1',
         paddingBottom: 15,
+        zIndex: 1,
     },
 
     headerIcon: {
@@ -48,9 +52,13 @@ export default StyleSheet.create({
         zIndex: 1,
     },
 
+    all_tweets: {
+        paddingTop: 50,
+        paddingBottom: 55,
+    },
+
     tweet: {
         flexDirection: 'row',
-        height: 100,
         borderBottomWidth: 0.5,
         borderBottomColor: '#ccc',
     },

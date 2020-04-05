@@ -39,7 +39,7 @@ export default function Home() {
                 </TouchableOpacity>
             </View>
 
-            <SafeAreaView>
+            <SafeAreaView style={styles.all_tweets}>
                 <FlatList 
                     data={data_tweets}
                     keyExtractor={item => item.id}
@@ -84,8 +84,6 @@ export default function Home() {
                 
                 />
             </SafeAreaView>
-
-            
 
             <View style={styles.bottomMenu}>
                 <TouchableOpacity>
