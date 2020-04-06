@@ -24,8 +24,6 @@ import avatarImg from '../assets/avatar-1.png';
 import preferencesImg from '../assets/preferences.png';
 
 export default function Home() {
-    console.log(data_tweets);
-
     return (
         <View style={styles.container}>
             <TouchableOpacity style={styles.writeTweetButton}>
