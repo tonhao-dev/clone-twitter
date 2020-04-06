@@ -13,6 +13,24 @@ export default StyleSheet.create({
         paddingTop: Constants.statusBarHeight + 20,
     },
 
+    writeTweetButton: {
+        backgroundColor: '#00bfff',
+        width: 55,
+        height: 55,
+        borderRadius: 30,
+        position: 'absolute',
+        bottom: 70,
+        right: 20,
+        justifyContent: 'center',
+        alignItems: 'center',
+        zIndex: 1,
+    },
+
+    writeTweetIcon: {
+        color: '#fff',
+        fontSize: 32,
+    },
+
     header: {
         width: '100%',
         backgroundColor: '#fff',

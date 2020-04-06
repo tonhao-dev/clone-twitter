@@ -13,7 +13,8 @@ import {
     Ionicons,
     MaterialIcons,
     SimpleLineIcons,
-    Entypo
+    Entypo,
+    MaterialCommunityIcons
  } from '@expo/vector-icons';
 import data_tweets from './data';
 
@@ -27,6 +28,10 @@ export default function Home() {
 
     return (
         <View style={styles.container}>
+            <TouchableOpacity style={styles.writeTweetButton}>
+                <MaterialCommunityIcons style={styles.writeTweetIcon} name="pencil"></MaterialCommunityIcons>
+            </TouchableOpacity>
+
             <View style={styles.header}>
                 <TouchableOpacity>
                     <Feather style={[styles.headerIcon, styles.hamburguerIcon]} name="menu" size={32} />
